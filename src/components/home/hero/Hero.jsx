@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Heading from "../../common/heading/Heading";
-import "./Hero.css";
+
 
 const Hero = () => {
   const paragraph =

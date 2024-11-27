@@ -1,0 +1,431 @@
+.hero {
+    background-image: url("../../../public/images/bg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 103vh;
+    padding-top: 20%;
+    padding-right: 50px;
+    color: #fff;
+}
+
+.hero #heading h3 {
+    color: #fff;
+}
+
+.hero #heading {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutHome {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutHome #heading {
+    text-align: left;
+    padding: 0;
+}
+
+.aboutHome .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutHome .right {
+    padding: 80px 0px 80px 0px;
+}
+
+.aboutHome .items {
+    margin-top: 50px;
+}
+
+.aboutHome .item {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.aboutHome .img {
+    width: 200px;
+}
+
+.aboutHome img {
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+}
+
+.aboutHome .item h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.aboutHome .item p {
+    color: #999999;
+}
+
+.aboutHome .item:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+
+.aboutHome .item:hover p {
+    color: #fff;
+}
+
+/*----------awrapper------------*/
+.awrapper {
+    background-image: url("../../../public/images/awrapper.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    color: #fff;
+}
+
+.awrapper .box {
+    padding: 70px 0;
+}
+
+.awrapper img {
+    margin-right: 30px;
+}
+
+.awrapper h1 {
+    font-size: 50px;
+}
+
+.awrapper h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.aboutFlex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.coursesCard {
+    padding: 50px 0;
+  }
+  .coursesCard .items {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  .coursesCard .img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #1eb2a6;
+    padding: 15px;
+  }
+  .coursesCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .coursesCard .text {
+    margin-left: 15px;
+    text-align: left;
+  }
+  .coursesCard .text h1 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+  }
+  .coursesCard .rate {
+    margin: 20px 0;
+    color: #1eb2a6;
+  }
+  .coursesCard .rate i {
+    font-size: 13px;
+    margin-right: 5px;
+  }
+  .coursesCard .details .dimg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  .coursesCard .details .box {
+    display: flex;
+    align-items: center;
+    color: grey;
+  }
+  .coursesCard .details span {
+    color: #1eb2a6;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .coursesCard .price {
+    margin: 30px 0;
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+  .coursesCard h3 {
+    font-weight: 500;
+    color: #1eb2a6;
+  }
+  /*-------------online---------*/
+  .online {
+    text-align: center;
+  }
+  .online .box {
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+    background-color: #fff;
+    padding: 30px 20px;
+    transition: 0.5s;
+  }
+  .online .img {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    position: relative;
+  }
+  .online img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .online h1 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 30px;
+  }
+  .online span {
+    background-color: #f8f8f8;
+    padding: 5px 20px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #1eb2a6;
+    border-radius: 5px;
+  }
+  .online .box .show {
+    opacity: 0;
+  }
+  .online .box:hover {
+    background-color: #1eb2a6;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .online .box:hover .show {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .online .box:hover h1 {
+    color: #fff;
+  }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.grid3 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+.testimonal .items {
+    padding: 30px;
+    transition: 0.5s;
+  }
+  
+  .testimonal .img {
+    position: relative;
+  }
+  .testimonal img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .testimonal i {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    background-color: #1eb2a6;
+    color: #fff;
+  }
+  .testimonal .name {
+    margin: 25px;
+  }
+  .testimonal .name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  .testimonal .name span {
+    color: #1eb2a6;
+  }
+  .testimonal p {
+    margin-top: 20px;
+    color: grey;
+    transition: 0.5s;
+    margin: 10px 20px 10px 20px;
+  }
+  .testimonal .items:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+  }
+  .testimonal .items:hover span,
+  .testimonal .items:hover p {
+    color: #fff;
+  }
+  .testimonal .items:hover i {
+    background-color: #fff;
+    color: #1eb2a6;
+  }
+  .blog img {
+    width: 100%;
+    height: 100%;
+  }
+  .blog .text {
+    padding: 40px 30px;
+  }
+  .blog h1 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    margin: 20px 0;
+    transition: 0.5s;
+  }
+  .blog h1:hover {
+    color: #1eb2a6;
+    cursor: pointer;
+  }
+  .blog span {
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #1eb2a6;
+  }
+  .blog span label {
+    margin-left: 10px;
+    color: grey;
+    font-size: 14px;
+  }
+  .blog span:nth-last-child(1) label {
+    color: #1eb2a6;
+  }
+  .blog p {
+    color: grey;
+  }
+  
+@media screen and (max-width: 768px) {
+    .margin {
+        height: 40vh;
+    }
+
+    .hero {
+        background-position: right;
+        padding-top: 50%;
+        height: auto;
+    }
+
+    .hero .row {
+        width: 100%;
+    }
+
+    .aboutHome .container {
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .aboutHome .row {
+        width: 100%;
+    }
+
+    .awrapper .box {
+        padding: 0px;
+    }
+
+    .awrapper {
+        height: 100%;
+    }
+
+    .aboutHome img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .grid3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+    .testimonal .items {
+        padding: 3px 10px 3px 10px;
+        transition: 0.5s;
+      }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .hero {
+        background-position: right;
+        padding-top: 50%;
+        height: auto;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+    .hero {
+        background-position: right;
+        padding-top: 50%;
+        height: auto;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid3 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+    }
+}
