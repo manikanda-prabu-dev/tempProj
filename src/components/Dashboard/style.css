@@ -332,9 +332,9 @@
   }
   
 @media screen and (max-width: 768px) {
-    .margin {
+    /* .margin {
         height: 40vh;
-    }
+    } */
 
     .hero {
         background-position: right;
@@ -386,15 +386,26 @@
         padding: 3px 10px 3px 10px;
         transition: 0.5s;
       }
+      .aboutHome .right {
+        padding: 20px 0px 20px 0px;
+    }
+    
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-    .hero {
-        background-position: right;
-        padding-top: 50%;
-        height: auto;
-    }
-
+  .hero {
+    background-image: url("../../../public/images/bg.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 103vh;
+    padding-top: 20%;
+    padding-right: 50px;
+    color: #fff;
+}
     .grid {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -414,6 +425,7 @@
         background-position: right;
         padding-top: 50%;
         height: auto;
+        position: absolute;
     }
 
     .grid {

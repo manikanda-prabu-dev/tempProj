@@ -24,7 +24,7 @@ const Footer = () => {
             <span>CANADA CHEMMOZHI ACADEMY</span>
             <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
 
-            <i className='fab fa-facebook-f icon'></i>
+            <i onClick={()=>window.scrollTo({top: 0, behavior: 'smooth'})} className='fab fa-facebook-f icon'></i>
             <i className='fab fa-twitter icon'></i>
             <i className='fab fa-instagram icon'></i>
           </div>

@@ -7,8 +7,8 @@ const Header = () => {
   const [click, setClick] = useState(false)
 
   return (
-    <>
-      <Head />
+    <div className="header-navBar">
+    <Head />
       <header>
         <nav className='flexSB'>
           <ul className={click ? "mobile-nav" : "flexSB "} onClick={() => setClick(false)}>
@@ -42,7 +42,7 @@ const Header = () => {
           </button>
         </nav>
       </header>
-    </>
+    </div>
   )
 }
 
